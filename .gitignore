@@ -8,6 +8,10 @@
 *.so
 *.dylib
 
+monkey-lsp
+
+log.txt
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -19,3 +23,7 @@
 
 # Go workspace file
 go.work
+
+# node stuff
+/node_modules
+/client/node_modules
